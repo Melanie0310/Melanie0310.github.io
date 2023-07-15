@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlomó Librería</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+
+</head>
+<body>
+
+<!--encabezado barra de busqueda, logo, etc -->
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="#" class="logo"> <i class="fas fa-book"></i> Shlomó Librería </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Buscar aquí..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+<!--encabezado inicio, productos, etc -->
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/index.html">INICIO</a>
+            <a href="http://127.0.0.1:5500/producto.html">PRODUCTOS</a>
+            <a href="http://127.0.0.1:5500/quienessomos.html">QUIENES SOMOS</a>
+            <a href="http://127.0.0.1:5500/contacto.html">CONTACTOS</a>
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+    <a href="http://127.0.0.1:5500/index.html" class="fas fa-home"></a>
+    <a href="http://127.0.0.1:5500/producto.html" class="fas fa-list"></a>
+    <a href="http://127.0.0.1:5500/quienessomos.html" class="fas fa-tags"></a>
+    <a href="http://127.0.0.1:5500/contacto.html" class="fas fa-comments"></a>
+</nav>
+
+<!--user regristar-->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Iniciar sesión</h3>
+        <span>Nombre de usuario</span>
+        <input type="email" name="" class="box" placeholder="Introduzca su email" id="">
+        <span>Contraseña</span>
+        <input type="password" name="" class="box" placeholder="Introduzca su contraseña" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Recuerdame">
+            <label for="Recuerdame">Recuerdame</label>
+        </div>
+        <input type="submit" value="Iniciar sesión" class="btn">
+        <p>¿Olvidaste tu contraseña? <a href="#">Haz click aquí</a></p>
+        <p>¿No tienes cuenta? <a href="#">Crea una</a></p>
+
+        </div>
+    </form>
+
+</div> 
+
+<!--inicio cuerpo principal-->
+
+<section class="home" id="inicio">
+
+    <div class="row">
+
+        <div class="content">
+            <h3>BIENVENIDO: SHLOMÓ</h3>
+            <p>UN LUGAR ENTRE PÁGINAS DONDE PODRAS ENCONTRAR GRANDES AVENTURAS E HISTORIAS QUE TE HARAN LLEVAR A LO MAL ALTO DE LA FE, SUMÉRGETE EN LO MAS MISTERIOSO Y EXTRAORDINARIO DE LA RELIGIÓN. ¿TE UNES A ESTE GRAN RETO? COMIENZA AQUÍ Y VIVE LO MEJOR DE LA VIDA ENTRE LIBROS</p>
+            <a href="http://127.0.0.1:5500/producto.html" class="btn">Comprar ahora</a>
+        </div>
+
+        <div class="swiper books-slider">
+            <div class="swiper-wrapper">
+                <a class="swiper-slide"><img src="images/book1.jpg"></a>
+                <a class="swiper-slide"><img src="images/book2.jpg"></a>
+                <a class="swiper-slide"><img src="images/book10.jpg"></a>
+                <a class="swiper-slide"><img src="images/book12.jpg"></a>
+                <a class="swiper-slide"><img src="images/book13.jpg"></a>
+                <a class="swiper-slide"><img src="images/book14.jpg"></a>
+            </div>
+            <img src="images/estante.jpg" class="stand" alt="">
+        </div>
+
+    </div>
+
+
+</section>
+
+<section class="icons-container">
+    <div class="icons">
+        <i class="fas fa-plane"></i>
+        <div class="content">
+            <h3>Envío gratis</h3>
+            <p>Compras mayores a s/100</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-lock"></i>
+        <div class="content">
+            <h3>Pago seguro</h3>
+            <p>Paga con seguridad</p>
+        </div>
+    </div>
+
+    <div class="icons">
+        <i class="fas fa-redo-alt"></i>
+        <div class="content">
+            <h3>Devoluciones</h3>
+            <p>Hasta los 10 días</p>
+        </div>
+    </div>
+
+    
+
+</section>
+<!--productos destacados section-->
+
+<section class="featured" id="featured">
+
+    <h1 class="heading"> <span>Libros destacados</span></h1>
+
+    <div class="swiper featured-slider">
+
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book1.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Biblia de estudio "Arco Iris"</h3>
+                    <h2>B&H Español Editorial Staff</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book2.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Biblia de estudio "Spurgeon"</h3>
+                    <h2>B&H Español Editorial</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book3.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Dicc. Antiguo Testamento</h3>
+                    <h2>T. Desmond Alexander y David W. Baker</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book4.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Vencedores</h3>
+                    <h2>Dr. David Jeremiah</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book5.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Creación del universo</h3>
+                    <h2>Francisco González</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book6.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cómo comprender la Biblia</h3>
+                    <h2>John Stott</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book7.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cómo estudiar e interpretar la Biblia</h3>
+                    <h2>R.C Sproul</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book8.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Cómo defender su fe</h3>
+                    <h2>R.C Sproul</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+            <div class="swiper-slide box">
+                <div class="icons">
+                    <a href="#" class="fas fa-search"></a>
+                    <a href="#" class="fas fa-heart"></a>
+                    <a href="#" class="fas fa-eye"></a>
+                </div>
+                <div class="image">
+                    <img src="images/book9.jpg" alt="">
+                </div>
+                <div class="content">
+                    <h3>Éxito 101</h3>
+                    <h2>Johnc. Maxwell</h2>
+                    <div class="price">s/.35.99 <span>s/.25.99</span></div>
+                    <a href="http://127.0.0.1:5500/producto.html" class="btn">Ir a la compra</a>
+                </div>
+            </div>
+
+        </div>
+
+        <div class="swiper-button-next"></div>
+        <div class="swiper-button-prev"></div>
+        
+
+    </div>
+
+</section>
+
+
+<!--nuestra mision seccion-->
+<section class="newsletter" id="close-mision">
+    <form action="">
+        <h3>¡NUESTRA MISIÓN!</h3>
+        <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem quaerat incidunt officiis aliquam unde excepturi quis ex exercitationem velit tenetur optio hic, distinctio suscipit perspiciatis ut magnam? Perferendis, repudiandae praesentium?</h3>
+        <input type="email" name="" class="box2" placeholder="Introduzca su email" id="">
+        <input type="submit" value="Únete" class="btn">
+    </form>
+</section>
+
+<!--nuestra mision seccion-->
+<!--pie de pagina-->
+
+
+<footer>
+    <section class="footer">
+
+        <div class="box-container">
+    
+            <div class="box">
+                <h3>ENLACES</h3>
+                <a href="http://127.0.0.1:5500/index.html"> <i class="fas fa-arrow-right"></i>Inicio</a>
+                <a href="http://127.0.0.1:5500/producto.html"> <i class="fas fa-arrow-right"></i>Productos</a>
+                <a href="http://127.0.0.1:5500/quienessomos.html"> <i class="fas fa-arrow-right"></i>Quienes somos</a>
+                <a href="http://127.0.0.1:5500/contacto.html"> <i class="fas fa-arrow-right"></i>Contactos</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>CONTACTO</h3>
+                <a href="https://api.whatsapp.com/send/?phone=994800941" target="_blank"> <i class="fas fa-phone"></i>+51 994 800 941</a>
+                <a href="https://api.whatsapp.com/send/?phone=916302922"> <i class="fas fa-phone"></i>+51 916 302 922</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>REDES SOCIALES</h3>
+                <a href="https://www.facebook.com/Crhis.TarazonaTerry?mibextid=ZbWKw"> <i class="fab fa-facebook-f"></i>Facebook: Crhistopher</a>
+                <a href="https://web.facebook.com/camila.mendoza.52012"> <i class="fab fa-facebook-f"></i>Facebook: Camila</a>
+    
+            </div>
+    
+            <div class="box">
+                <h3>UBICACIONES</h3>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i>San Andrés</a>
+                <a href="#"> <i class="fas fa-map-marker-alt"></i>La esperanza</a>
+    
+            </div>
+    
+        </div>
+    
+        <div class="credit"> Creado por <span>Tarazona Terry</span> | Todos los derechos reservados | </div>
+    
+    </section>
+</footer>
+
+</body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script src="script.js"></script>
+
+</head>
+</html>
