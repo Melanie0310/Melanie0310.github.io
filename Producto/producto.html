@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlomó Librería</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="producto.css"> 
+
+</head>
+<body>
+
+<!--encabezado barra de busqueda, logo, etc -->
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="http://127.0.0.1:5500/index.html" class="logo"> <i class="fas fa-book"></i> Shlomó Librería </a>
+
+        <form action="" class="search-form">
+            <input type="search" name="" placeholder="Buscar aquí..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+<!--encabezado inicio, productos, etc -->
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/index.html">INICIO</a>
+            <a href="http://127.0.0.1:5500/producto.html">PRODUCTOS</a>
+            <a href="http://127.0.0.1:5500/quienessomos.html">QUIENES SOMOS</a>
+            <a href="http://127.0.0.1:5500/contacto.html">CONTACTOS</a>
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+    <a href="http://127.0.0.1:5500/index.html" class="fas fa-home"></a>
+    <a href="http://127.0.0.1:5500/producto.html" class="fas fa-list"></a>
+    <a href="http://127.0.0.1:5500/quienessomos.html" class="fas fa-tags"></a>
+    <a href="http://127.0.0.1:5500/contacto.html" class="fas fa-comments"></a>
+</nav>
+
+<!--user regristar-->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Iniciar sesión</h3>
+        <span>Nombre de usuario</span>
+        <input type="email" name="" class="box" placeholder="Introduzca su email" id="">
+        <span>Contraseña</span>
+        <input type="password" name="" class="box" placeholder="Introduzca su contraseña" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Recuerdame">
+            <label for="Recuerdame">Recuerdame</label>
+        </div>
+        <input type="submit" value="Iniciar sesión" class="btn">
+        <p>¿Olvidaste tu contraseña? <a href="#">Haz click aquí</a></p>
+        <p>¿No tienes cuenta? <a href="#">Crea una</a></p>
+
+        </div>
+    </form>
+
+</div> 
+
+
+
+<div class="container2">
+
+    <h5 class="title2"> Nuestros libros </h5>
+ 
+    <div class="products-container">
+ 
+       <div class="product" data-name="p-1">
+          <img src="images/book1.jpg" alt="">
+          <h5>Biblia de estudio "Arco Iris"</h5>
+          <h2>B&H Español Editorial Staff</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-2">
+          <img src="images/book2.jpg" alt="">
+          <h5>Biblia de estudio "Spurgeon"</h5>
+          <h2>B&H Español Editorial</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-3">
+          <img src="images/book3.jpg" alt="">
+          <h5>Dicc. Antiguo Testamento</h5>
+          <h2>T. Desmond Alexander y David W. Baker</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-4">
+          <img src="images/book4.jpg" alt="">
+          <h5>Vencedores</h5>
+          <h2>Dr. David Jeremiah</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-5">
+          <img src="images/book5.jpg" alt="">
+          <h5>Creación del universo</h5>
+          <h2>Francisco González</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+ 
+       <div class="product" data-name="p-6">
+          <img src="images/book6.jpg" alt="">
+          <h5>Cómo comprender la Biblia</h5>
+          <h2>John Stott</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+
+       <div class="product" data-name="p-7">
+          <img src="images/book7.jpg" alt="">
+          <h5>Cómo estudiar e interpretar la Biblia</h5>
+          <h2>R.C Sproul</h2>
+          <div class="price">s/.40.00</div>
+       </div>
+
+       <div class="product" data-name="p-8">
+            <img src="images/book8.jpg" alt="">
+            <h5>Cómo defender su fe</h5>
+            <h2>R.C Sproul</h2>
+            <div class="price">s/.40.00</div>
+       </div>
+
+       <div class="product" data-name="p-9">
+            <img src="images/book9.jpg" alt="">
+            <h5>Éxito 101</h5>
+            <h2>Johnc. Maxwell</h2>
+            <div class="price">s/.40.00</div>
+       </div>
+
+       <div class="product" data-name="p-10">
+            <img src="images/book10.jpg" alt="">
+            <h5>Josefo: Los escritos esenciales</h5>
+            <h2>Paul L. Maier</h2>
+            <div class="price">s/.40.00</div>
+        </div>
+
+     <div class="product" data-name="p-11">
+          <img src="images/book11.jpg" alt="">
+          <h5>Nuevo diccionario bíblico ilustrado</h5>
+          <h2>FSamuel Vila y Santiago Escuain</h2>
+          <div class="price">s/.40.00</div>
+     </div>
+
+     <div class="product" data-name="p-12">
+          <img src="images/book12.jpg" alt="">
+          <h5>Las 21 cualidades indispensables de un líder</h5>
+          <h2>Johnc Maxwell</h2>
+          <div class="price">s/.40.00</div>
+     </div>
+       
+     <div class="product" data-name="p-13">
+         <img src="images/book13.jpg" alt="">
+         <h5>Mentor 101</h5>
+         <h2>Johnc Maxwell</h2>
+         <div class="price">s/.40.00</div>
+      </div>
+ 
+      <div class="product" data-name="p-14">
+         <img src="images/book14.jpg" alt="">
+         <h5>Elementos esenciales del liderazgo</h5>
+         <h2>Johnc Maxwell</h2>
+         <div class="price">s/.40.00</div>
+      </div>
+
+      <div class="product" data-name="p-15">
+         <img src="images/book15.jpg" alt="">
+         <h5>Libro 1</h5>
+         <h2>Featured books</h2>
+         <div class="price">s/.40.00</div>
+      </div>
+
+    </div>
+ 
+ </div>
+ 
+ <div class="products-preview">
+ 
+    <div class="preview" data-target="p-1">
+       <i class="fas fa-times"></i>
+       <h5>Biblia de estudio "Arco Iris"</h5>
+       <h2>B&H Español Editorial Staff</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 35 )</span>
+       </div>
+       <p>La RVR 1960 Biblia de Estudio Arco Iris cuenta con un sistema único de «código de colores» que le permite al lector de manera fácil y rápida identificar 
+         12 temas importantes en las Escrituras: Dios, amor, discipulado, fe, pecado, Satanás, salvación, familia, testimonio, mandamientos, historia y profecía.</p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+ 
+    <div class="preview" data-target="p-2">
+       <i class="fas fa-times"></i>
+       <h5>Biblia de estudio "Spurgeon"</h5>
+       <h2>B&H Español Editorial</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 23 )</span>
+       </div>
+       <p>La RVR 1960 Biblia de estudio Spurgeon presenta un texto fácil de leer en una traducción tradicional y verdadera. 
+         El diseño amplio y hermoso de esta Biblia de estudio es ideal para todo aquel que enseña, predica y desea profundizar en la Palabra de Dios.</p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+ 
+    <div class="preview" data-target="p-3">
+       <i class="fas fa-times"></i>
+       <h5>Dicc. Antiguo Testamento</h5>
+       <h2>T. Desmond Alexander y David W. Baker</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 13 )</span>
+       </div>
+       <p>El Diccionario del Antiguo Testamento: Libros Históricos es el segundo de una serie de cuatro volúmenes que abarcan el texto del Antiguo Testamento y sus temas, su entorno y su trasfondo. 
+         Es un diccionario enciclopédico que se caracteriza por la especial atención a los debates que se están produciendo en el seno de las ciencias bíblicas contemporáneas.</p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+ 
+    <div class="preview" data-target="p-4">
+       <i class="fas fa-times"></i>
+       <h5>Vencedores</h5>
+       <h2>Dr. David Jeremiah</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 30 )</span>
+       </div>
+       <p>Vivimos en un tiempo de profunda incertidumbre. Aun así, la Biblia promete que podemos vivir la vida de libertad que fue diseñada para nosotros, incluso en tiempos en los que el mundo que nos rodea parece lleno de oscuridad. 
+         Fuimos creados para ser vencedores, y para superar los mayores obstáculos de nuestras vidas.</p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+ 
+    <div class="preview" data-target="p-5">
+       <i class="fas fa-times"></i>
+       <h5>Creación del universo</h5>
+       <h2>Francisco González</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 45 )</span>
+       </div>
+       <p>La intención de esta obra es "determinar" la naturaleza de Dios en su relación con el Universo, concretando y analizando los denominados atributos cósmicos de Dios. 
+         Trata, por tanto, del problema de Dios, pero orientado sólo en su relación con el Cosmos, prescindiendo explícita y radicalmente de su relación con el Hombre.</p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+ 
+    <div class="preview" data-target="p-6">
+       <i class="fas fa-times"></i>
+       <h5>Cómo comprender la Biblia</h5>
+       <h2>John Stott</h2>
+       <div class="stars">
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star"></i>
+          <i class="fas fa-star-half-alt"></i>
+          <span>( 28 )</span>
+       </div>
+       <p>El autor analiza la geografía, la historia, la teología, la autoridad y la interpretación de las Escrituras. El propósito es 'presentar el ámbito en el cual Dios se reveló una vez 
+         y ahora ofrece a Cristo, de modo que podamos captar mejor para nosotros mismo y compartir con otros la gloriosa plenitud de Jesucristo mismo'. </p>
+       <div class="price">s/.40.00</div>
+       <div class="buttons">
+          <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+       </div>
+    </div>
+
+    <div class="preview" data-target="p-7">
+        <i class="fas fa-times"></i>
+        <h5>Cómo estudiar e interpretar la Biblia</h5>
+        <h2>R.C Sproul</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 33 )</span>
+        </div>
+        <p>El estudio perfecto para poner en práctica lo que Dios ordeno, «Estudia las Escritura». Guía para el estudiante y maestro incluida.</p>
+        <div class="price">s/.40.00</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-8">
+        <i class="fas fa-times"></i>
+        <h5>Cómo defender su fe</h5>
+        <h2>R.C Sproul</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 49 )</span>
+        </div>
+        <p>El doctor Sproul muestra como la razón y las investigaciones científicas pueden ser aliadas en la defensa de la existencia de Dios y los reclamos históricos y legítimos de Jesucristo. 
+         Los lectores que buscan defender la fe a través de argumentos lógicos y bíblicos encontrarán en este libro un recurso indispensable</p>
+        <div class="price">s/.40.00</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-9">
+        <i class="fas fa-times"></i>
+        <h5>Éxito 101</h5>
+        <h2>Johnc. Maxwell</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 52 )</span>
+        </div>
+        <p>Este libro nos enseña que el éxito es un camino más que un destino. El camino al éxito no se verá igual para todos porque 
+         la imagen del éxito es distinta para cada persona, pero los principios usados para tomar el camino no cambian.</p>
+        <div class="price">s/.40.00</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-10">
+        <i class="fas fa-times"></i>
+        <h5>Josefo: Los escritos esenciales</h5>
+        <h2>Paul L. Maier</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 250 )</span>
+        </div>
+        <p>Por primera vez los lectores podrán comprender, apreciar y beneficiarse de manera plena de estas obras clásicas, que arrojan una luz significativa acerca del Antiguo y Nuevo testamento.
+         Todos los pasajes significativos están incluidos, muchos de ellos palabra por palabra.</p>
+        <div class="price">s/.40.00</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-11">
+        <i class="fas fa-times"></i>
+        <h5>Nuevo Diccionario Bíblico Ilustrado</h5>
+        <h2>Samuel Vila Y Santiago Escuain</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 21 )</span>
+        </div>
+        <p>Más de 4.000 artículos de carácter enciclopédico. Analiza uno a uno todos los términos bíblicos y pasa revista, de manera amplia y profunda, 
+         a los descubrimientos actuales de arqueólogos y expertos en el campo bíblico, situándolos al alcance de todos los lectores.</p>
+        <div class="price">s/.38.90</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-12">
+        <i class="fas fa-times"></i>
+        <h5>Las 21 Cualidades Indispensables De Un Líder</h5>
+        <h2>Johnc Maxwell</h2>
+        <div class="stars">
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star"></i>
+           <i class="fas fa-star-half-alt"></i>
+           <span>( 33 )</span>
+        </div>
+        <p>John C. Maxwell presenta un libro accesible y conciso acerca del liderazgo que le ayuda a los lectores a ser líderes más eficientes desde adentro hacia fuera.</p>
+        <div class="price">s/.45.00</div>
+        <div class="buttons">
+           <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+        </div>
+    </div>
+
+    <div class="preview" data-target="p-13">
+         <i class="fas fa-times"></i>
+         <h5>Mentor 101</h5>
+         <h2>Johnc Maxwell</h2>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>El autor nos hace cuestionar ¿qué sucedería si pasaramos toda la vida teniendo éxito en algo, 
+            pero nunca compartiremos nuestro sabio conocimiento con alguien? Nuestro éxito moriría con nosotros.</p>
+         <div class="price">s/.40.00</div>
+         <div class="buttons">
+            <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+         </div>
+      </div>
+
+      <div class="preview" data-target="p-14">
+         <i class="fas fa-times"></i>
+         <h5>Elementos Esenciales Del Liderazgo</h5>
+         <h2>Johnc Maxwell</h2>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 44 )</span>
+         </div>
+         <p>Maxwell se enfoca en cualidades probadas a traves del tiempo, las cuales son necesarias para realizar 
+            una influencia genuina del liderazgo, integridad, actitud, vision y capacidad de solucionar problemas, relaciones, fomentar el espiritu en equipo y la autodisciplina.</p>
+         <div class="price">s/.40.50</div>
+         <div class="buttons">
+            <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+         </div>
+      </div>
+
+      <div class="preview" data-target="p-15">
+         <i class="fas fa-times"></i>
+         <h5>Libro 1</h5>
+         <h2>Featured books</h2>
+         <div class="stars">
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star"></i>
+            <i class="fas fa-star-half-alt"></i>
+            <span>( 250 )</span>
+         </div>
+         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur, dolorem.</p>
+         <div class="price">s/.40.00</div>
+         <div class="buttons">
+            <a href="http://127.0.0.1:5500/contacto.html" class="cart">Comprar ahora</a>
+         </div>
+      </div>
+
+ </div>
+
+
+
+
+
+
+
+
+<!--pie de pagina-->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>ENLACES</h3>
+            <a href="http://127.0.0.1:5500/index.html"> <i class="fas fa-arrow-right"></i>Inicio</a>
+            <a href="http://127.0.0.1:5500/producto.html"> <i class="fas fa-arrow-right"></i>Productos</a>
+            <a href="http://127.0.0.1:5500/quienessomos.html"> <i class="fas fa-arrow-right"></i>Quienes somos</a>
+            <a href="http://127.0.0.1:5500/contacto.html"> <i class="fas fa-arrow-right"></i>Contactos</a>
+
+        </div>
+
+        <div class="box">
+            <h3>CONTACTO</h3>
+            <a href="https://api.whatsapp.com/send/?phone=994800941"> <i class="fas fa-phone"></i>+51 994 800 941</a>
+            <a href="https://api.whatsapp.com/send/?phone=916302922"> <i class="fas fa-phone"></i>+51 916 302 922</a>
+
+        </div>
+
+        <div class="box">
+            <h3>REDES SOCIALES</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i>Facebook: Crhistopher</a>
+            <a href="#"> <i class="fab fa-facebook-f"></i>Facebook: Camila</a>
+
+        </div>
+
+        <div class="box">
+            <h3>UBICACIONES</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>San Andrés</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>La esperanza</a>
+
+        </div>
+
+    </div>
+
+    <div class="credit"> Creado por <span>Tarazona Terry</span> | Todos los derechos reservados | </div>
+
+</section>
+
+</body>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script src="producto.js"></script>
+
+</head>
+</html>

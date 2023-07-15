@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shlomó Librería</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="contacto.css"> 
+
+</head>
+<body>
+
+<!--encabezado barra de busqueda, logo, etc -->
+<header class="header">
+
+    <div class="header-1">
+
+        <a href="http://127.0.0.1:5500/index.html" class="logo"> <i class="fas fa-book"></i> Shlomó Librería </a>
+
+        <form1 action="" class="search-form">
+            <input type="search" name="" placeholder="Buscar aquí..." id="search-box">
+            <label for="search-box" class="fas fa-search"></label>
+        </form1>
+
+        <div class="icons">
+            <div id="search-btn" class="fas fa-search"></div>
+            <a href="#" class="fas fa-shopping-cart"></a>
+            <div id="login-btn" class="fas fa-user"></div>
+        </div>
+    </div>
+<!--encabezado inicio, productos, etc -->
+    <div class="header-2">
+        <nav class="navbar">
+            <a href="http://127.0.0.1:5500/index.html">INICIO</a>
+            <a href="http://127.0.0.1:5500/producto.html">PRODUCTOS</a>
+            <a href="http://127.0.0.1:5500/quienessomos.html">QUIENES SOMOS</a>
+            <a href="http://127.0.0.1:5500/contacto.html">CONTACTOS</a>
+        </nav>
+    </div>
+
+</header>
+
+<nav class="bottom-navbar">
+    <a href="http://127.0.0.1:5500/index.html" class="fas fa-home"></a>
+    <a href="http://127.0.0.1:5500/producto.html" class="fas fa-list"></a>
+    <a href="http://127.0.0.1:5500/quienessomos.html" class="fas fa-tags"></a>
+    <a href="http://127.0.0.1:5500/contacto.html" class="fas fa-comments"></a>
+</nav>
+
+<!--user regristar-->
+
+<div class="login-form-container">
+
+    <div id="close-login-btn" class="fas fa-times"></div>
+
+    <form action="">
+        <h3>Iniciar sesión</h3>
+        <span>Nombre de usuario</span>
+        <input type="email" name="" class="box" placeholder="Introduzca su email" id="">
+        <span>Contraseña</span>
+        <input type="password" name="" class="box" placeholder="Introduzca su contraseña" id="">
+        <div class="checkbox">
+            <input type="checkbox" name="" id="Recuerdame">
+            <label for="Recuerdame">Recuerdame</label>
+        </div>
+        <input type="submit" value="Iniciar sesión" class="btn">
+        <p>¿Olvidaste tu contraseña? <a href="#">Haz click aquí</a></p>
+        <p>¿No tienes cuenta? <a href="#">Crea una</a></p>
+
+        </div>
+    </form>
+
+</div> 
+
+<!--contactos seccion-->
+<div class="container2">
+    <span class="big-circle"></span>
+    <div class="form2">
+        <div class="contact-info">
+            <h3 class="title">¡Pónganse en contacto!</h3>
+          <p class="text">
+            ¿Seleccioneste tu producto? Ahora contactonos para finalizar el pedido! 
+            (detallar en "Mensaje" las caracteristicas del libro que desea)
+          </p>
+
+          <div class="info">
+            <div class="information">
+              <img src="images/icon-2.svg" class="icon" alt="" />
+              <p>San Andrés V Estapa - Iglesia Príncipe de paz</p>
+            </div>
+            <div class="information">
+              <img src="images/icon-1.svg" class="icon" alt="" />
+              <p>Shlomólibreria@gmail.com</p>
+            </div>
+            <div class="information">
+              <img src="images/icon-3.svg" class="icon" alt="" />
+              <p>123-456-789</p>
+            </div>
+          </div>
+
+          <div class="social-media">
+            <p>Contáctanos al:</p>
+            <div class="social-icons">
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-facebook-f"></i>
+              </a>
+              <a href="#">
+                <i class="fab fa-whatsapp"></i>
+              </a>
+            </div>
+          </div>
+        
+        </div>
+        
+
+        <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
+
+            <form action="contacto.html">
+                <h3 class="tittle">CONTÁCTANOS</h3>
+                <div class="input-container3">
+                    <input type="text" name="name" class="input">
+                    <label for="">Nombre usuario</label>
+                    <span>Nombre de usuario</span>
+                </div>
+                <div class="input-container3">
+                    <input type="email" name="email" class="input">
+                    <label for="">Email</label>
+                    <span>Email</span>
+                </div>
+                <div class="input-container3">
+                    <input type="tel" name="phone" class="input">
+                    <label for="">Teléfono</label>
+                    <span>Teléfono</span>
+                </div>
+                <div class="input-container3 textarea">
+                    <textarea name="message" class="input"></textarea>
+                    <label for="">Mensaje</label>
+                    <span>Mensaje</span>
+                </div>
+                <input type="submit" value="Enviar" class="btn3" />
+            </form>
+        </div>
+    </div>
+</div>
+
+<iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7899.332644951399!2d-79.05586921495863!3d-8.135411746663747!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x91ad3d17069edbbd%3A0x119287a28b74ebfc!2sSan%20Andr%C3%A9s%20V%20Etapa%2C%20V%C3%ADctor%20Larco%20Herrera%2013009!5e0!3m2!1ses!2spe!4v1687033743717!5m2!1ses!2spe" width="85%" height="500" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></iframe>
+
+
+<!--pie de pagina-->
+<section class="footer">
+
+    <div class="box-container">
+
+        <div class="box">
+            <h3>ENLACES</h3>
+            <a href="http://127.0.0.1:5500/index.html"> <i class="fas fa-arrow-right"></i>Inicio</a>
+            <a href="http://127.0.0.1:5500/producto.html"> <i class="fas fa-arrow-right"></i>Productos</a>
+            <a href="http://127.0.0.1:5500/quienessomos.html"> <i class="fas fa-arrow-right"></i>Quienes somos</a>
+            <a href="http://127.0.0.1:5500/contacto.html"> <i class="fas fa-arrow-right"></i>Contactos</a>
+
+        </div>
+
+        <div class="box">
+            <h3>CONTACTO</h3>
+            <a href="https://api.whatsapp.com/send/?phone=994800941"> <i class="fas fa-phone"></i>+51 994 800 941</a>
+            <a href="https://api.whatsapp.com/send/?phone=916302922"> <i class="fas fa-phone"></i>+51 916 302 922</a>
+
+        </div>
+
+        <div class="box">
+            <h3>REDES SOCIALES</h3>
+            <a href="#"> <i class="fab fa-facebook-f"></i>Facebook: Crhistopher</a>
+            <a href="#"> <i class="fab fa-facebook-f"></i>Facebook: Camila</a>
+
+        </div>
+
+        <div class="box">
+            <h3>UBICACIONES</h3>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>San Andrés</a>
+            <a href="#"> <i class="fas fa-map-marker-alt"></i>La esperanza</a>
+
+        </div>
+
+    </div>
+
+    <div class="credit"> Creado por <span>Tarazona Terry</span> | Todos los derechos reservados | </div>
+
+</section>
+
+</body>
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+
+<script src="contacto.js"></script>
+
+</head>
+</html>
